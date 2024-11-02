@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "strict": true,
+        "allowJs": true,
+        "checkJs": true,
+        "module": "commonjs",
+        "target": "esnext",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "paths": {
+            "@shared/*": [
+                "./packages/shared/src/*"
+            ]
+        }
+    }
+}

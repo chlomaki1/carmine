@@ -31,7 +31,9 @@ export default defineConfig({
             }
         }),
         autoImport({
+            dts: true,
             imports: [
+                "vue",
                 VueRouterAutoImports
             ]
         }),

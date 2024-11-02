@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import TestRenderer from "../../components/test-renderer.vue";
+import TestRenderer from "../../components/TestRenderer.vue";
 </script>
 
 <template>

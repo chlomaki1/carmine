@@ -16,7 +16,8 @@ export default [
             "@stylistic/indent": ["error", 4],
             "@stylistic/comma-dangle": ["warn", "never"],
             "@stylistic/quotes": ["warn", "double"],
-            "@stylistic/semi": ["warn", "always"],
+            "@stylistic/semi": ["warn", "always"]
         }
     }
-]
+];
+

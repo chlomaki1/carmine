@@ -8,7 +8,7 @@ import "./styles/index.scss";
 export const router = createRouter({
     history: createWebHistory(),
     routes
-})
+});
 
 createApp(App)
     .use(router)
